@@ -43,14 +43,14 @@ mainDiv.appendChild(div2)
 var div3 = document.createElement('div');
 div3.setAttribute('class', 'container mb-4');
 var div3Inner = document.createElement('div');
-div3Inner.setAttribute('class', 'd-flex inline-block align-items-center bg-warning ');
+div3Inner.setAttribute('class', 'd-flex inline-block bg-warning pl-3 pt-3');
 
 var h5 = document.createElement('h2');
 h5.setAttribute('class', 'text-primary pb-2');
 h5.textContent = "Hello WatchKit";
 var text2 = document.createElement('p');
 text2.textContent = '12 comments';
-text2.setAttribute('class', 'pl-4 align-items-center')
+text2.setAttribute('class', 'pl-4')
 var text3 = document.createElement('p');
 text3.textContent = "124 likes"
 
